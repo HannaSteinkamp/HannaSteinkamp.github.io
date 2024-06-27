@@ -56,18 +56,16 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">June 16, 2024</span>
-									<h1>Choropleth Map</h1>
+									<span class="date">June 26, 2024</span>
+									<h1>3D City Map with LiDAR data</h1>
 									<p>Creating a comparison map for Sustainble Development Goals</p>
 								</header>
-								<iframe src="https://uni-utrecht.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=232f21996fe94f368c9c396fbef7ee79" width="100%" height="800px" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
-								<p>This first assignment asks to make a choropleth map.  A choropleth map is a type of thematic map that uses varying shades of colour to depict data values across different geographic regions. It visualizes quantitative, enumerated, and normalized data and allows viewers to quickly identify patterns and trends. Commonly used in media due to its simplicity, this type of map is ideal for representing data linked to political jurisdictions, like SDG indicators. However, choropleth maps have limitations, such as the modifiable areal unit problem (MAUP) and the potential for misleading interpretations if absolute values are not normalized. Another limitation of choropleth maps is that they evoke the impression that the feature the map depicts occurs continuously everywhere in the geographic region (e.g. the country) and stops at borders.  </p>
-								<p>For this assignment we used data from the Open SDG Data Hub. We made two different maps, both about SDG 15 (Life on land), one describing the percentage of forest to total land area, since Forests are crucial in mitigating climate change by absorbing carbon dioxide from the atmosphere and storing it in their biomass and soils and the other one about the average proportion of terrestrial Key Biodiversity Areas (KBAs) covered by protected areas. We compared these two indicators with each other because the main global biodiversity hotspots are found in the rain forest and biodiversity is a crucial topic not only with respect to climate change but also to the development of the earth and ecosystems in the future. 
-									To create the maps, we used the programme QGIS and followed the same procedure for both. First we uploaded a clean world shape, since the final map should visualize worldwide collected data. Then we imported the indicator, meaning the data from the Open SDG Data Hub, because that is what the map should picture later. Then we joined the world map and the indicator together, so that the values of the indicator correspond to the world map. In the following we graduated the indicator to create the different shades of colour for each country, and make it a choropleth map. Next, we choose the equal area projection, which is necessary for choropleth maps to ensure that the relative size of areas on the map are preserved so that colour distribution and intensity is accurate and consistent. 
-									Then we imported the data in ArcGIS and created a story web map so that the viewer is able to compare both maps easily with a slider tool.</p>
-								<p>The first maps communication aim is to inform the viewer about the percentage of forest area as a percentage of total land area. The second map informs the viewer about the protection of important biodiversity areas. Especially in the second map it is surprising and also very alarming that so many of the key biodiversity hotspots are not protected.
-									The hardest part of this assignment was to work with QGIS and ArcGIS for the first time. We struggled a lot and spend a great amount of time on this assignment trying things over and over again until we finally arrived at the result. However it was gratifying to be able to do the steps faster the next time and to realise that I memorized more of the process. </p>
-
+								<a href="#" class="image main"><img src="images/lidar1.png" alt="" /></a>
+								<p>This screenshot shows a 3D scene I created of Utrecht, utilizing LiDAR data that is publicly available and was collected in November 2023 by the Optical and Laser Remote Sensing group of the Department of Geoscience and Remote Sensing at the Delft University of Technology. 
+									<br /><br />LiDAR (Light Detection and Ranging) data is a remote sensing method that uses laser pulses to measure distances to the Earth's surface, providing accurate and detailed topographic information. 3D maps are crucial as they provide a detailed and accurate representation of the terrain and structures, which is essential for urban planning, environmental monitoring, and disaster management. 
+									<br /><br />In developing this scene, I learned to convert data files from LAZ to LAS, understand the importance of coordinate systems (x, y, z), measure the height of trees and buildings, and create profile views. These skills are fundamental for accurately interpreting and utilizing geospatial data.</p>
+								<a href="#" class="image main"><img src="images/profile.png" alt="" /></a>
+								<p>Screenshot of a profile view.</p>
 							</section>
 
 					</div>
